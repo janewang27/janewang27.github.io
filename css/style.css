@@ -1,7 +1,11 @@
+html {
+	background-color: #ffffff;
+}
+
 body {
+	background-color: #e6e6e6;
 	font-family: georgia, serif;
 	font-size: 16px;
-	background-color: #ffffff;
 	padding-top: 25px;
 	padding-left: 75px;
 	border-left: 1px solid #373737;
@@ -44,12 +48,16 @@ h1 {
 }
 
 .date {
-	color: #a1a1a1;
+	color: #959594;
 	letter-spacing: -1px;
+	display: block;
 }
 
 h2 {
 	text-transform: uppercase;
+	letter-spacing: .5px;
+	display: inline-block;
+	border-bottom: 2px solid #373737;
 	padding-top: 15px;
 	padding-bottom: 7px;
 	color: #1f1f1f;
