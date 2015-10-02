@@ -19,7 +19,7 @@ body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
   color: #7f8c97;
-  background-color: #e9f0f5;
+  background-color: #c6eff4;
 }
 
 a {
@@ -64,17 +64,20 @@ header {
   height: 200px;
   line-height: 200px;
   text-align: center;
-  background: #303e49;
+  background: white;
 }
 header h1 {
-  color: white;
-  font-size: 18px;
-  font-size: 1.125rem;
+  color: #94cc29;
+  -webkit-text-stroke-width: .8px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 6px;
+  font-size: 30px;
 }
+
 @media only screen and (min-width: 1170px) {
   header {
-    height: 75px;
-    line-height: 75px;
+    height: 150px;
+    line-height: 150px;
   }
   header h1 {
     font-size: 24  px;
@@ -95,7 +98,7 @@ header h1 {
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: white;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -255,7 +258,7 @@ header h1 {
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: black;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
