@@ -180,8 +180,13 @@ header img {
   width: 50px;
   height: 50px;
 }
-.email {
+.phone {
   margin-left: -50px;
+  width:47px;
+  height:39px;
+}
+.email {
+  margin-left: -100px;
   width: 46px;
   height: 41px;
 }
@@ -503,4 +508,31 @@ header img {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+/* DROPDOWN MENU STYLE */
+
+ul {
+    list-style-type: none;
+    margin-top: -170px;
+    width: 131px;
+    height: 30px;
+    text-align: right;
+    border: .1px solid white;
+    display: none;
+}
+
+input[name=trigger] {
+    display: none;
+}
+
+ul li a {
+    display: block;
+}
+
+label {
+    cursor: pointer;
+}
+input[name="trigger"]:checked + ul {
+    display: block;
 }
