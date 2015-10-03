@@ -19,7 +19,7 @@ body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
   color: #7f8c97;
-  background-color: #c6eff4;
+  background-color: #dbf1f4;
 }
 
 a {
@@ -67,7 +67,7 @@ header {
   background: white;
 }
 header h1 {
-  color: #94cc29;
+  color: #a3d39c;
   -webkit-text-stroke-width: .8px;
   -webkit-text-stroke-color: black;
   letter-spacing: 6px;
