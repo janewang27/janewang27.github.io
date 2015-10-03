@@ -68,15 +68,23 @@ Main components
 header {
   height: 200px;
   line-height: 200px;
-  text-align: center;
   background: white;
 }
+
 header h1 {
   color: #a3d39c;
   -webkit-text-stroke-width: .8px;
   -webkit-text-stroke-color: black;
   letter-spacing: 6px;
   font-size: 35px;
+  margin-left: 300px;
+}
+
+header img {
+  width: 125px;
+  height: 125px;
+  margin: 11px 20px 0 50px;
+  border-radius: 100px;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -168,6 +176,16 @@ header h1 {
 .cd-timeline-img.cd-work {
   background: #e45f56;
 }
+.linkedin {
+  width: 50px;
+  height: 50px;
+}
+.phone {
+  margin-left: -50px;
+  width: 46px;
+  height: 41px;
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 40px;
