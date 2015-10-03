@@ -32,8 +32,13 @@ img {
   max-width: 100%;
 }
 
-h1, h2 {
-  font-family: "Open Sans", sans-serif;
+h1 {
+  font-family: Candara;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Calibri;
   font-weight: bold;
 }
 
@@ -71,16 +76,13 @@ header h1 {
   -webkit-text-stroke-width: .8px;
   -webkit-text-stroke-color: black;
   letter-spacing: 6px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 @media only screen and (min-width: 1170px) {
   header {
     height: 150px;
     line-height: 150px;
-  }
-  header h1 {
-    font-size: 24  px;
   }
 }
 
@@ -157,21 +159,21 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
-  background: #75ce66;
+.cd-timeline-img.cd-grad {
+  background: #415c81;
 }
-.cd-timeline-img.cd-movie {
-  background: #c03b44;
-}
-.cd-timeline-img.cd-location {
+.cd-timeline-img.cd-trophy {
   background: #f0ca45;
+}
+.cd-timeline-img.cd-work {
+  background: #e45f56;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     left: 50%;
-    margin-left: -30px;
+    margin-left: -20px;
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
@@ -249,7 +251,7 @@ header h1 {
   margin-left: 60px;
   background: white;
   border-radius: 0.25em;
-  padding: 1em;
+  padding: 13px;
   box-shadow: 0 3px 0 #d7e4ed;
 }
 .cd-timeline-content:after {
