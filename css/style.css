@@ -176,6 +176,9 @@ header img {
 .cd-timeline-img.cd-work {
   background: #e45f56;
 }
+.cd-timeline-img.cd-bday {
+  background:#a3d39c;
+}
 .linkedin {
   width: 50px;
   height: 50px;
@@ -514,7 +517,7 @@ header img {
 
 ul {
     list-style-type: none;
-    margin-top: -170px;
+    margin-top: -166px;
     width: 131px;
     height: 30px;
     text-align: right;
