@@ -42,6 +42,44 @@ h2 {
   font-weight: bold;
 }
 
+.icons {
+}
+
+.image {
+  width: 100%;
+}
+
+.jane {
+  display: none;
+}
+
+
+/* -------------------------------- 
+
+Responsive mobile
+
+-------------------------------- */
+
+@media (max-width: 960px) {
+  .icons {
+    display: none;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .jane {
+    visibility: visible;
+  }
+
+  h1 {
+    font-family: Candara;
+    font-weight: bold;
+  }
+
+}
+
 /* -------------------------------- 
 
 Modules - reusable parts of our design
