@@ -28,10 +28,6 @@ a {
   font-family: "Open Sans", sans-serif;
 }
 
-img {
-  width: 100%;
-}
-
 h1 {
   font-family: Candara;
   font-weight: bold;
@@ -42,7 +38,8 @@ h2 {
   font-weight: bold;
 }
 
-.icons {
+.icons img {
+  max-width: 100%;
 }
 
 .image {
